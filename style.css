@@ -1,0 +1,73 @@
+:root {
+    --one:white;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: antiquewhite;
+}
+.record-button {
+    margin: 5px;
+    padding: 5px;
+    background-color:rgba(164, 220, 230,1);
+    border: 0px;
+    color: rgb(20, 4, 80);
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px 0px rgba(0, 0, 0, 1);
+}
+.record-button:hover {
+    background-color:rgba(164, 220, 230,0.6);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 1);
+    position: relative;
+    top: 4px;
+    
+}
+.ques {
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+.submit {
+    display: flex;
+    align-items: flex-end;
+}
+#title-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    height: 10vh;
+}
+#title{
+    font-size:32px;
+    letter-spacing: 1px;
+    padding: 10px;
+    color: white;
+}
+#button-wrapper{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: coral;
+    height:15vh;
+}
+#start{
+    height:5vh;
+    margin:10vw;
+}
+#stop{
+    margin:10vw;
+    height:5vh;
+}
+#video-wrapper{
+    display: flex;
+    justify-content: center;
+    background-color: crimson;
+    border-top: 2px solid cyan;
+}
+#video {
+    width: 60vw;
+    margin: 24px;
+    height:60vh;
+    border-radius: 24px;
+}
